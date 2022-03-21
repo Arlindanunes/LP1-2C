@@ -32,7 +32,13 @@ public class Buzz {
                 return "Nunca duvidei de mim mesmo, Comandante, e não vou começar agora!";
             case 6:
                 return "Nunca duvidei de mim mesmo, Comandante, e não vou começar agora!";
-
+                public void disparaLaser(){
+        if (laser == true){
+            laser = false;
+        }else{
+            laser = true;
+        }
+    }
         }
         return "";
     }
